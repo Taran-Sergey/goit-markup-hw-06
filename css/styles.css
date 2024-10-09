@@ -187,6 +187,13 @@ address{
     visibility: hidden;
     pointer-events: none; 
 }
+
+.mob-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
 .menu-exit-btn {
     margin-bottom: 24px;
     margin-left: auto;
