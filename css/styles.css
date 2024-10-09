@@ -183,9 +183,9 @@ address{
     flex-direction: column;
     justify-content: space-between;
     overflow: auto;
-    /* opacity: 0;
+    opacity: 0;
     visibility: hidden;
-    pointer-events: none;  */
+    pointer-events: none; 
 }
 .menu-exit-btn {
     display: block;
