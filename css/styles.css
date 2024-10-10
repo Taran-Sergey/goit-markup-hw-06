@@ -428,9 +428,9 @@ background-color: #404bbf
 }
 
 .features-subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
@@ -632,13 +632,13 @@ background-color: #404bbf
 .portfolio-subtitle{
     text-align: left;
 }
-/* .portfolio-subtitle { 
+.portfolio-subtitle { 
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-}*/
+}
 
 /*.portfolio-tex {
     font-weight: 400;
@@ -666,6 +666,7 @@ background-color: #404bbf
 .logo-container{
     /* margin-right: 120px; */
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .footer-logo {
@@ -695,13 +696,14 @@ background-color: #404bbf
     letter-spacing: 0.02em;
     max-width: 264px;
     color: #f4f4fd;
-    margin-bottom: 72px;
+    
     text-align: left;
 }
 
 .footer-container-icons {
     /* margin-right: 80px; */
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .footer-tex-icons {
@@ -720,7 +722,7 @@ background-color: #404bbf
 justify-content: center;
     flex-direction: row;
     gap: 16px;
-    margin-bottom: 72px;
+    
 }
 
 .footer-icons-item {
@@ -1198,21 +1200,24 @@ border: none;
     .footer{
         padding-top: 96px;
         padding-bottom: 96px;
-        padding-left: 92px;
+        /* padding-left: 92px; */
     }
     .footer-container{
         display: flex;
         flex-wrap: wrap;
-        gap: 72px 24px;     
+        gap: 72px 24px;  
+        padding-left: 108px;   
     }
     .logo-container {
         text-align: left;
+        margin-bottom: 0;
     }
     .footer-tex {
         margin-bottom: 0;
     }
     .footer-container-icons {
         text-align: left;
+        margin-bottom: 0;
     }
     .footer-icons{
         margin-bottom: 0;
@@ -1309,6 +1314,15 @@ border: none;
     align-items: center;
     justify-content: center;
     height: 112px;
+    }
+
+    .features-subtitle{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
     }
 
     .team{
